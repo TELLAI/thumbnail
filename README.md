@@ -25,11 +25,25 @@ Cette application utilise les technologies suivantes:
 
 1- Créer un Storage Account sur Azure
 2- Créer une App-function sur Azure:
-====> Ajouter les functions dont on a besoin, bien choisir le type (blob, http ...), parametrer le chemin d'accés au upload file dans fonction.json et relier cette fonction a notre storage Account(integration > input/trigger).
+
+#### ====> Ajouter les functions dont on a besoin, bien choisir le type (blob, http ...), parametrer le chemin d'accés au upload file dans fonction.json et relier cette fonction a notre storage Account(integration > input/trigger).
+
+
 ![Alt text](screen-package.png "function.json")
-====> Parametrer l'output de la fonction afin que celle ci nous envoie un rendu.
+
+
+#### ====> Parametrer l'output de la fonction afin que celle ci nous envoie un rendu.
+
+
+
 ![Alt text](screen-output.png "parametrage du output")
-====> Parametrer les accès au container ou l'on veut uploader les fichiers en mode blob
+
+
+
+#### ====> Parametrer les accès au container ou l'on veut uploader les fichiers en mode blob
+
+
+
 ![Alt text](screen-container.png "parametrage du container")
 
 ## Developement
